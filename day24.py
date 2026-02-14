@@ -1,0 +1,8 @@
+from datetime import datetime
+
+now = datetime.now()
+
+print("Current date and time:", now)
+
+formatted = now.strftime("%d-%m-%Y %H:%M:%S")
+print("Formatted date and time:", formatted)
